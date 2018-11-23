@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+// petux saleh
 namespace CollectionsHomeWork
 {
     class Program
@@ -21,6 +21,7 @@ namespace CollectionsHomeWork
 
             Console.WriteLine("\n\n\nEmail: dayrep.com");
             foreach (var item in Actions.DebtbyEmail(debtors, "dayrep.com"))
+                
             {
                 Console.WriteLine($"{item.FullName} {item.Email} {item.Address} {item.Phone} {item.Debt}");
             }
